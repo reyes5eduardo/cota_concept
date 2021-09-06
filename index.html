@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>COTA</title>
+</head>
+<body>
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">COTA</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link ">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#discover" class="nav__link">Discover</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#seats" class="nav__link">Places</a>
+                </li>
+            </ul>
+
+            <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-function-line"></i>
+        </div>
+    </nav>
+</header>
+
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+        <div class="home__container container grid">
+            <div class="home__data">
+                <span class="home__data-subtitle">Circuit of the Americas</span>
+                <h1 class="home__data-title">See the best <br> motor racing <br> in action</h1>
+                <a href="#about" class="button">Explore</a>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">About COTA <br> Home of the F1 US GP</h2>
+                <p class="about__description">Circuit of the Americas is a Grade 1 FIA-specification <br>
+                    3.426-mile motor racing track and facilities located within the <br>
+                    extraterritorial jurisdiction of Austin, Texas.
+                </p>
+                <a href="#seats" class="button">Reserve a place</a>
+            </div>
+
+            <div class="about__img">
+                <div class="about__img-overlay">
+                    <img src="assets/img/image11.jpg" alt="" class="about__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== DISCOVER ====================-->
+    <section class="discover section" id="discover">
+        <h2 class="section__title">Enjoy close racing ranging<br> from F1, Indycar, Moto GP <br> to the the WEC</h2>
+
+        <div class="discover__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== DISCOVER 1 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">WEC</h2>
+                        <span class="discover__description">6 Hours of Circuit of <br>the Americas</span>
+                    </div>
+                </div>
+
+                <!--==================== DISCOVER 2 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">MotoGP</h2>
+                        <span class="discover__description">Grand Prix of the Americas</span>
+                    </div>
+                </div>
+
+                <!--==================== DISCOVER 3 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Indycar</h2>
+                        <span class="discover__description">Indycar Challenge</span>
+                    </div>
+                </div>
+
+                <!--==================== DISCOVER 4 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="assets/img/image10.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">F1</h2>
+                        <span class="discover__description">US Grand Prix</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== INFO ====================-->
+    <section class="info section">
+        <h2 class="section__title">Circuit of the Americas <br> track insights</h2>
+
+        <div class="info__container container grid">
+            <div class="info__content grid">
+                <div class="info__data">
+                    <h2 class="info__number">5.513km </h2>
+                    <span class="info__description">Lap <br> Length</span>
+                </div>
+
+                <div class="info__data">
+                    <h2 class="info__number">1'32.237</h2>
+                    <span class="info__description">Fastest Lap <br> Lewis Hamilton 2018</span>
+                </div>
+
+                <div class="info__data">
+                    <h2 class="info__number">1'39.347</h2>
+                    <span class="info__description">Lap Record <br> Sebastian Vettel 2012</span>
+                </div>
+            </div>
+
+            <div class="info__img grid">
+                <div class="info__overlay">
+                    <img src="assets/img/image9.jpeg" alt="" class="info__img-one">
+                </div>
+
+                <div class="info__overlay">
+                    <img src="assets/img/image8.jpg" alt="" class="info__img-two">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SEATS ====================-->
+    <section class="seats section" id="seats">
+        <h2 class="section__title">Choose Your View</h2>
+
+        <div class="seats__container container grid">
+            <!--==================== SEATS CARD 1 ====================-->
+            <div class="seats__card">
+                <img src="assets/img/image5.jpg" alt="" class="seats__img">
+
+                <div class="seats__content">
+                    <div class="seats__data">
+                        <h3 class="seats__title">Bleachers</h3>
+                        <span class="seats__subtitle">3 and single day pass</span>
+                        <span class="seats__price">$149</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex seats__button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+            <!--==================== SEATS CARD 2 ====================-->
+            <div class="seats__card">
+                <img src="assets/img/image6.jpg" alt="" class="seats__img">
+
+                <div class="seats__content">
+                    <div class="seats__data">
+                        <h3 class="seats__title">Grand Stands</h3>
+                        <span class="seats__subtitle">3-day pass</span>
+                        <span class="seats__price">$259</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex seats__button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+            <!--==================== SEATS CARD 3 ====================-->
+            <div class="seats__card">
+                <img src="assets/img/image7.jpg" alt="" class="seats__img">
+
+                <div class="seats__content">
+                    <div class="seats__data">
+                        <h3 class="seats__title">Lawn</h3>
+                        <span class="seats__subtitle">3 and single day pass</span>
+                        <span class="seats__price">$99</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex seats__button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!--==================== SPONSORS ====================-->
+    <section class="sponsor section">
+        <div class="sponsor__container container grid">
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors4.jpg" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors6.png" alt="" class="sponsor__img">
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SUBSCRIBE ====================-->
+    <section class="subscribe section">
+        <div class="subscribe__bg">
+            <div class="subscribe__container container">
+                <h2 class="section__title subscribe__title">Subscribe to <br> our Newsletter</h2>
+                <p class="subscribe__description">Subscribe to our newsletter to stay updated
+                    for all events in COTA.
+                </p>
+
+                <form action="" class="subscribe__form">
+                    <input type="text" placeholder="Enter email" class="subscribe__input">
+
+                    <button class="button">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer section">
+    <div class="footer__container container grid">
+        <div class="footer__content grid">
+            <div class="footer__data">
+                <h3 class="footer__title">Circuit of the Americas</h3>
+                <p class="footer__description">Enjoy the best <br> drivers in
+                    motorsport <br> racing to the limit.
+                </p>
+            </div>
+
+            <div class="footer__data">
+                <h3 class="footer__subtitle">About</h3>
+                <ul>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">About Us</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">Features</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">News & Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Services</h3>
+                <ul>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">Packages</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">Tickets</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">Membership</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Support</h3>
+                <ul>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">FAQs</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">Support</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__rights">
+            <p class="footer__copy">&#169; 2021 Circuit of the Americas All rights reserved.</p>
+            <div class="footer__terms">
+                <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                <a href="#" class="footer__terms-link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--=============== SCROLL REVEAL===============-->
+<script src="assets/scrollreveal.min.js"></script>
+
+<!--=============== SWIPER JS ===============-->
+<script src="assets/swiper-bundle.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/main.js"></script>
+</body>
+</html>
